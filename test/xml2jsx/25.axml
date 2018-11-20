@@ -1,0 +1,7 @@
+<import src="./15.axml"/>
+<div>
+  <p>
+    <span>add</span>
+  </p>
+  <template is="item"/>
+</div>

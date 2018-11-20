@@ -1,0 +1,14 @@
+<import src="./temp.axml"/>
+<div class="page-todos">
+  <Checkbox.Group onChange="onCheckedChanged" value="{{getCheckedValue()}}">
+    <div a:for="{{todos}}">
+      <Checkbox value="{{item.text}}"/>
+      <span style="font-size: 16px">{{item.text}}</span>
+    </div>
+  </Checkbox.Group>
+  <div style="margin-top: 10px">
+    <Button onClick="addTodo">Add Todo</Button>
+  </div>
+  <template is="temp" />
+  <include src="./footer.axml"/>
+</div>

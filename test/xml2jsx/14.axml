@@ -1,0 +1,7 @@
+<view class="container">
+  <view a:for="{{list}}" key="{{item}}">
+    <view onTap="bringToFront" data-value="{{item}}">
+    {{item}}: click to bring to front
+    </view>
+  </view>
+</view>

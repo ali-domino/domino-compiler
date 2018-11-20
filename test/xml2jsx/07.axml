@@ -1,0 +1,6 @@
+<view>
+  <text a:if="{{view == 'WEBVIEW'}}"> WEBVIEW </text>
+  <text a:elif="{{view == 'APP'}}"> APP </text>
+  <text a:elif="{{view == 'APP2'}}"> APP2 </text>
+  <text a:else> alipay </text>
+</view>

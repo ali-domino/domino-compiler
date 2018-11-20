@@ -1,0 +1,45 @@
+{
+  "name": "domino-compiler",
+  "version": "0.2.0",
+  "files": [
+    "lib",
+    "loader"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "build-demo": "npm run build && webpack --mode=production && cp *.html ./dist/",
+    "test": "npm run build && node ./test/index.js",
+    "prepublish": "npm run build",
+    "dev": "npm run build && webpack-dev-server --mode=development"
+  },
+  "dependencies": {
+    "acorn": "^5.7.2",
+    "blueimp-md5": "^2.10.0"
+  },
+  "devDependencies": {
+    "@types/acorn": "^4.0.3",
+    "@types/react": "^16.4.13",
+    "antd": "^3.9.1",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "fs-extra": "^7.0.0",
+    "json-loader": "^0.5.7",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.22.1",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

@@ -1,0 +1,4 @@
+<view>
+  <text a:if="{{view == 'WEBVIEW'}}"> WEBVIEW </text>
+  <text a:else> alipay </text>
+</view>

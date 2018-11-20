@@ -1,0 +1,3 @@
+<view>
+  <text a:if="{{view == 'WEBVIEW'}}"> WEBVIEW </text>
+</view>

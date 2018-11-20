@@ -1,0 +1,6 @@
+.page-todos {
+  background: #eee;
+  padding: 40px 60px;
+  line-height: 2;
+  font-size: 20px;
+}

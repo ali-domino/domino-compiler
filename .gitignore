@@ -1,0 +1,14 @@
+*.iml
+.idea/
+*.bak
+.DS_Store
+Thumbs.db
+.build
+node_modules
+_site
+.cache
+dist
+build/
+lib/
+*.check.jsx
+_output_check/

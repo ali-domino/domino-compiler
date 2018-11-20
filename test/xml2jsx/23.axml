@@ -1,0 +1,8 @@
+<view>
+  <checkbox-group onChange="onCheckedChanged">
+      <view a:for="{{todos}}">
+        <checkbox value="{{item.text}}" checked="{{item.completed}}"/>
+        <text>{{item.text}}</text>
+      </view>
+    </checkbox-group>
+</view>

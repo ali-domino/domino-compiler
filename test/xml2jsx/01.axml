@@ -1,0 +1,3 @@
+<view>
+  <button onTap="addTodo">Add Todo</button>
+</view>

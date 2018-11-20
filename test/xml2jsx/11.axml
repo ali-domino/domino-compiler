@@ -1,0 +1,5 @@
+<view>
+  <view a:for="{{array}}" a:for-index="idx" a:for-item="itemName">
+    {{idx}}: {{itemName.message}}
+  </view>
+</view>

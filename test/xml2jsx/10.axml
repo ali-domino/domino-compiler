@@ -1,0 +1,3 @@
+<view>
+  <text a:for="{{items}}" a:if="{{item.a}}">{{text}}</text>
+</view>

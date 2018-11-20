@@ -1,0 +1,5 @@
+<view>
+  <text id="item-{{id}}">
+   aaa: {{text}}
+  </text>
+</view>

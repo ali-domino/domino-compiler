@@ -1,0 +1,4 @@
+<import src="./test.axml"/>
+<Checkbox.Group>
+  <template is="test" />
+</Checkbox.Group>

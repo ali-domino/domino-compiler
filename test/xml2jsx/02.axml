@@ -1,0 +1,3 @@
+<view>
+  <button onTap="{{addTodo}}">{{text}}</button>
+</view>
